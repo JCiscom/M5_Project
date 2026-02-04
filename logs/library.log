@@ -1,0 +1,37 @@
+2026-02-04 11:56:54.510 [ERROR] m5.project.dao.UserDAO - Invalid name. ERROR: permission denied for sequence users_user_id_seq
+org.postgresql.util.PSQLException: ERROR: permission denied for sequence users_user_id_seq
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:194)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:155)
+	at m5.project.dao.UserDAO.userLogin(UserDAO.java:61)
+	at m5.project.LibraryApplication.start(LibraryApplication.java:25)
+	at m5.project.Main.main(Main.java:12)
+2026-02-04 11:59:18.077 [INFO] m5.project.dao.UserDAO - Login user: Emman
+2026-02-04 11:59:25.868 [INFO] m5.project.LibraryApplication - Invalid option. Please try again.
+
+2026-02-04 11:59:40.028 [INFO] m5.project.dao.LoanDAO - No Borrowed Book.
+2026-02-04 11:59:51.219 [INFO] m5.project.dao.BookDAO - Cannot add Duplicate ID.
+2026-02-04 12:00:07.123 [INFO] m5.project.dao.BookDAO - Added a book.
+2026-02-04 12:00:20.482 [INFO] m5.project.dao.BookDAO - Cannot Update a Non-existent Book.
+2026-02-04 12:00:31.660 [INFO] m5.project.dao.BookDAO - Updated a book.
+2026-02-04 12:00:48.382 [INFO] m5.project.dao.BookDAO - null
+2026-02-04 12:00:48.384 [INFO] m5.project.LibraryApplication - Invalid input; should be numeric.
+2026-02-04 12:01:00.734 [INFO] m5.project.dao.BookDAO - Updated a book.
+2026-02-04 12:01:14.093 [INFO] m5.project.dao.BookDAO - Updated a book.
+2026-02-04 12:01:19.669 [INFO] m5.project.LibraryApplication - Invalid input; should be numeric.
+2026-02-04 12:01:27.344 [INFO] m5.project.dao.LoanDAO - Book not found (ID: 7).
+2026-02-04 12:01:33.552 [INFO] m5.project.dao.LoanDAO - Borrowed a book. Title: 1984, Borrower: Emman, Book ID: 6
+2026-02-04 12:01:47.425 [INFO] m5.project.dao.LoanDAO - Cannot Remove a Non-existent Book.
+2026-02-04 12:01:51.654 [INFO] m5.project.dao.LoanDAO - null
+2026-02-04 12:01:51.655 [INFO] m5.project.LibraryApplication - Invalid input; should be numeric.
+2026-02-04 12:01:57.187 [INFO] m5.project.dao.LoanDAO - Returned a book.
+2026-02-04 12:02:01.216 [INFO] m5.project.dao.LoanDAO - No Borrowed Book.
+2026-02-04 12:02:09.179 [INFO] m5.project.dao.LoanDAO - Borrowed a book. Title: 1984, Borrower: Emman, Book ID: 6
+2026-02-04 12:02:16.987 [INFO] m5.project.dao.BookDAO - Selected book cannot be updated; currently borrowed.
+2026-02-04 12:03:06.126 [INFO] m5.project.dao.BookDAO - Removed a book.
+2026-02-04 12:03:08.564 [INFO] m5.project.dao.LoanDAO - No Borrowed Book.
+2026-02-04 12:03:13.690 [INFO] m5.project.LibraryApplication - Program terminated.

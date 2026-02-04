@@ -1,0 +1,9 @@
+2026-02-04 13:17:47.948 [INFO] m5.project.dao.UserDAO - Login user: Emman
+2026-02-04 13:17:51.368 [INFO] m5.project.dao.LoanDAO - No Borrowed Book.
+2026-02-04 13:18:27.161 [INFO] m5.project.dao.BookDAO - null
+2026-02-04 13:18:27.164 [INFO] m5.project.LibraryApplication - Invalid input; should be numeric.
+2026-02-04 13:18:38.799 [INFO] m5.project.LibraryApplication - Program terminated.
+2026-02-04 14:09:52.113 [INFO] m5.activity3.StudentCourseManagement - Invalid input; should be numeric.
+2026-02-04 14:10:25.633 [INFO] m5.activity3.StudentCourseManagement - Invalid input; should be numeric.
+2026-02-04 14:14:48.800 [INFO] m5.activity3.StudentCourseManagement - Added a course.
+2026-02-04 14:44:09.940 [INFO] m5.activity3.StudentCourseManagement - Program terminated.
